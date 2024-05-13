@@ -7,6 +7,11 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    maven { url 'https://repo.spring.io/release/' }
+    maven { url "https://repo.spring.io/libs-snapshot-local" }
+    maven { url "https://repo.spring.io/libs-milestone-local" }
+    maven { url "https://repo.spring.io/libs-release-local" }
+    maven { url "https://repo.springsource.org/plugins-release" }
 }
 
 dependencies {
